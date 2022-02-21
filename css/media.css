@@ -1,0 +1,329 @@
+@charset "UTF-8";
+@media (max-width:1200px) {
+
+    header {
+        position:absolute;
+        top:30px;
+        left:60px;
+        width:50%;
+    }
+    section .section_wrap {
+        width:100%;
+        top:10%;
+    }
+
+    #shop {
+        position:absolute;
+        top:120px;
+        left:0px;
+        right: 0px;
+    }
+    #shop li {
+        position: relative;
+        float: none;
+        margin:10px 0px;
+    }
+    #shop li a {
+        letter-spacing: 3px;
+        font-size: 3vw;
+    }
+    #shop li:nth-child(3) {
+        display: none;
+    }
+    #shop li:nth-child(5) {
+        display: none;
+    }
+
+
+    header {
+        top:20px;
+        left:20px;
+    }
+    
+    .header_in h1 img {
+        width:100%;
+    }
+    #menu{
+        margin-top:180px;
+    }
+    #menu li {
+        margin:10px 0 ;
+    
+    }
+    #menu li a { 
+        padding:5px 0 ;
+        font-size: 2vw;
+        
+    }
+    #sec1 img {
+        width:150px;
+   }
+
+    
+    #mainVideo {
+        position:absolute; 
+        top:10vh; 
+        left:10vw; 
+        bottom:0; 
+        right:0; 
+        width:80vw;
+        height:80vh;
+        object-fit:cover; 
+        object-position:center center; 
+    }
+    source {border: 3px solid yellow;
+    }
+    
+    
+    /*sec2*/
+    .goods {
+        height:50vh;
+    }
+
+    #sec3 .lookbook .lb_items img.l_logo {
+        bottom:20%;
+        left:10%;
+        width:40vw;
+        z-index: 2;transform: none;
+    }
+    #sec3 .lookbook .lb_items img.s_img01 {
+        width:13vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img02 {
+        width:9vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img03 {
+        width:20vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img04 {
+        width:14vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img05 {
+        width:13vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img06 {
+        width:19vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img07 {
+        width:13vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img08 {
+        width:14vw;
+    }
+    
+    
+    #sec4 .location_map #map {
+        margin-top: 30px;
+    }
+    #sec4 .location_map p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    #sec4 .location_map p.long_txt {
+        margin: 50px auto;
+    }
+
+    
+    
+}
+@media(max-width:850px){
+    #sec4 .section_wrap {
+        top: 0;
+    }
+    #sec4 .location_map {
+        float: none;
+        width:100%;
+    }
+    #sec4 .location_map div.loc_txt{
+        width:65%;
+        float: left;
+    }
+    #sec4 .location_map div.map_wrap{
+        width:30%;
+        float:right;
+    }
+    #sec4 .location_map p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #sec4 .location_map p.long_txt {
+        margin: 50px auto;
+    }
+}
+@media(max-width:750px){
+    #sec4 #map {
+        width:200px;
+        height:200px;
+    }
+    #sec1 p{
+        margin: 5px;
+        font-size:8px ;
+    } 
+    .goods {
+        height:40vh;
+    }
+    .info p {
+        font-size: 12px;
+    }
+    #sec3 .lookbook .lb_items img.s_img01 {
+        width:12vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img02 {
+        width:8vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img03 {
+        width:19vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img04 {
+        width:13vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img05 {
+        width:12vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img06 {
+        width:18vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img07 {
+        width:11vw;
+    }
+    #sec3 .lookbook .lb_items img.s_img08 {
+        width:15vw;
+    }
+
+
+}
+@media(max-width:500px){
+    
+    .header_in h1 {
+        width:50vw
+    }
+    section .section_wrap {
+        width:100%;
+        top:0%;
+    }
+
+    #sec1 h2{
+        margin:0px 0 50px;
+    } 
+    #sec1 img {
+         width:120px;
+         top:25vh;
+    }
+    #sec1 p{
+        margin: 5px;
+        font-size: 10px ;
+    } 
+
+
+    .goods {
+        display:block;
+        height:70vh;
+        overflow:auto;
+    }
+    .goods li {
+        width:50%;
+        float: left;
+    }
+    .info {
+        margin-top: 0;
+    }
+    .items .items_image img {
+        width:60%;
+    }
+    .items {
+        display: block;
+        text-align: center;
+    }
+    #sec2 .more {
+        margin: 0 15px;
+    }
+    #sec3 .section_wrap {
+        background-color: antiquewhite;
+        height:100%;
+    }
+    #sec3 #sec3_desk {
+        display: none;
+    }
+    #sec3 #sec3_mobile {
+        display: block;
+    }
+    #sec3 .lookbook .background {
+        display: none;
+    }
+    #sec3 .lookbook .lb_items img.m_back {
+        width:140%;
+        transform: none;
+        position: absolute;
+        bottom: 110px;
+    }
+    #sec3 .lookbook .lb_items img.l_logo {
+        bottom:20%;
+        left:10%;
+        width:80vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img01 {
+        top: 100px;
+        left: 15px;
+        width:35vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img02 {
+        top: 150px;
+        right: 5px;
+        width:35vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img03 {
+        top: 300px;
+        left:150px;
+        width:35vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img04 {
+        top: 400px;
+        left: 10px;
+        width:35vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img05 {
+        top: 450px;
+        right: 15px;
+        width:35vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img07 {
+        top: 80px;
+        left: 160px;
+        width:25vw;
+    }
+    #sec3 .lookbook .lb_items img.m_img08 {
+        width:10vw;
+    }
+
+    #sec4 .section_wrap {
+        height:100%;
+    }
+    #sec4 .location_map div.loc_txt{
+        margin-left: 20px;
+        float:none;
+    }
+    #sec4 .location_map {
+        width:100%;
+        margin-top: 300px;
+    }
+
+    #sec4 .location_map div.map_wrap{
+        display: none;
+        
+    }
+    #sec4 .location_map p.long_txt {
+        margin: 20px auto;
+    }
+    #sec4 .my_slider div {
+    }
+
+    #sec4 .footer {
+        
+        margin-top: 260px;
+    }
+    #sec4 .footer p {
+        font-size: 9px;
+        text-align: center;
+        margin: auto;
+    }
+}
